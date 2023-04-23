@@ -1,0 +1,14 @@
+/**
+ * Custom class
+ */
+
+
+.scrollable {
+    overflow-y: auto  !important;
+    overflow-x: hidden !important;
+    height: 100%;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
